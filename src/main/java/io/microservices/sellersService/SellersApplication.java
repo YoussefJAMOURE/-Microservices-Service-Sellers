@@ -10,7 +10,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableEurekaClient
 @EntityScan("io.microservices.sellersService.beans")
 @EnableJpaRepositories("io.microservices.sellersService.repositories")
-@ComponentScan("io.microservices.sellersService")
 @SpringBootApplication
 public class SellersApplication {
 
